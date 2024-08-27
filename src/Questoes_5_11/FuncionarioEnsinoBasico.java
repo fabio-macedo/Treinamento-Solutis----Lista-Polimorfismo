@@ -10,6 +10,10 @@ public class FuncionarioEnsinoBasico extends Funcionario{
         this.escola = escola;
     }
 
+    public String getEscola() {
+        return escola;
+    }
+
     @Override
     public void calcularRendaTotal() {
         double novaRenda = this.rendaBasica + getComissao();
