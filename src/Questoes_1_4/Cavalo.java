@@ -1,3 +1,5 @@
+package Questoes_1_4;
+
 public class Cavalo extends Animal{
     public Cavalo(String nome, int idade) {
         super(nome, idade);
@@ -5,11 +7,11 @@ public class Cavalo extends Animal{
 
     @Override
     public void emitirSom() {
-        System.out.println("Cavalo relinchando...");
+        System.out.println("Questoes_1_4.Cavalo relinchando...");
     }
 
     @Override
-    public void correr() {
-        super.correr();
+    public void emMovimento() {
+        super.emMovimento();
     }
 }
