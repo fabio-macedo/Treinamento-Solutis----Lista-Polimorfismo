@@ -11,7 +11,7 @@ public class FuncionarioEnsinoMedio extends Funcionario{
 
     @Override
     public void calcularRendaTotal() {
-        double novaRenda = this.rendaBasica + getComissao();
+        double novaRenda = (this.rendaBasica + getComissao());
         setRendaTotal(novaRenda);
     }
 }

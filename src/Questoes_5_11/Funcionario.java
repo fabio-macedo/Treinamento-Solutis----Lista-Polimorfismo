@@ -80,19 +80,16 @@ public class Funcionario {
     }
 
     public void calcularRendaTotal(){
-        double novarenda = this.rendaBasica + getComissao();
-        setRendaTotal((int) novarenda);
+        double novarenda = (this.rendaBasica + getComissao());
+        setRendaTotal(novarenda);
     }
 
     @Override
     public String toString() {
-        return "Funcionario{" +
-                "nome='" + nome + '\'' +
-                ", codigoFuncional=" + codigoFuncional +
-                ", rendaBasica=" + rendaBasica +
-                ", cargo=" + cargo +
-                ", comissao=" + comissao +
-                ", rendaTotal=" + rendaTotal +
-                '}';
+        return "Funcionario{"
+                + "nome = " + nome
+                + ", comissao = " + comissao
+                + ", rendaTotal = " + getRendaTotal()
+                + '}';
     }
 }

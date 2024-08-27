@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05a6e892-29fd-419e-bdbd-731905cccd9e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Questoes_5_11/Application2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questoes_5_11/Application2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questoes_5_11/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questoes_5_11/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questoes_5_11/FuncionarioEnsinoBasico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questoes_5_11/FuncionarioEnsinoBasico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questoes_5_11/FuncionarioEnsinoMedio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questoes_5_11/FuncionarioEnsinoMedio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questoes_5_11/FuncionarioEnsinoSuperior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questoes_5_11/FuncionarioEnsinoSuperior.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

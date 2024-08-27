@@ -10,12 +10,12 @@ public class Application2 {
         Funcionario funcionario2 = new FuncionarioEnsinoBasico("Tiago", 1517, Cargo.VENDEDOR, "Escola Semear");
         Funcionario funcionario3 = new FuncionarioEnsinoBasico("Zezo", 1518, Cargo.VENDEDOR, "Escola Crescendo");
         Funcionario funcionario4 = new FuncionarioEnsinoBasico("João", 1519, Cargo.VENDEDOR, "Escola Intensivo");
-        Funcionario funcionario5 = new FuncionarioEnsinoMedio("Fábio", 2020, Cargo.GERENTE, "Escola Renascer");
-        Funcionario funcionario6 = new FuncionarioEnsinoMedio("Salomão", 2021, Cargo.GERENTE, "Escola Interactivo");
-        Funcionario funcionario7 = new FuncionarioEnsinoMedio("Hibrael", 2022, Cargo.GERENTE, "Escola Reviver");
-        Funcionario funcionario8 = new FuncionarioEnsinoMedio("Rubem", 2023, Cargo.GERENTE, "Escola Renascença");
+        Funcionario funcionario5 = new FuncionarioEnsinoMedio("Fábio", 2020, Cargo.VENDEDOR, "Escola Renascer");
+        Funcionario funcionario6 = new FuncionarioEnsinoMedio("Salomão", 2021, Cargo.VENDEDOR, "Escola Interactivo");
+        Funcionario funcionario7 = new FuncionarioEnsinoMedio("Hibrael", 2022, Cargo.VENDEDOR, "Escola Reviver");
+        Funcionario funcionario8 = new FuncionarioEnsinoMedio("Rubem", 2023, Cargo.SUPERVISOR, "Escola Renascença");
         Funcionario funcionario9 = new FuncionarioEnsinoSuperior("Enzo", 9081, Cargo.SUPERVISOR, "Universidade Federal da Paraíba");
-        Funcionario funcionario10 = new FuncionarioEnsinoSuperior("Sidney", 9082, Cargo.SUPERVISOR, "Universidade Federal de Pernambuco");
+        Funcionario funcionario10 = new FuncionarioEnsinoSuperior("Sidney", 9082, Cargo.GERENTE, "Universidade Federal de Pernambuco");
 
         ArrayList<Funcionario> func = new ArrayList<>();
         func.add(funcionario1);
