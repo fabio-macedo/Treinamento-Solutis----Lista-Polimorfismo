@@ -12,6 +12,8 @@ public class Funcionario {
         this.nome = nome;
         this.codigoFuncional = codigoFuncional;
         this.cargo = cargo;
+        atribuirComissao(cargo);
+        calcularRendaTotal();
     }
 
     public String getNome() {
